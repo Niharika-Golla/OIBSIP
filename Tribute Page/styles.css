@@ -1,0 +1,133 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #000407;
+    color: #fff;
+}
+
+header {
+    background: #000;
+    color: #ffffff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 10;
+    font-size: 2.5rem;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #000407;
+    color: #fff;
+    z-index: 1000;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+.navbar ul li {
+    margin: 0 1rem;
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 1rem;
+}
+
+.navbar ul li a:hover {
+    background: #35424a;
+    border-radius: 5px;
+}
+
+main {
+    max-width: 1200px;
+    margin: 5rem auto 0;
+    padding: 0;
+}
+
+.full-screen {
+    min-height: 100vh;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.intro-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.intro-text {
+    flex: 1;
+    padding-right: 2rem;
+    text-align: left;
+}
+
+.intro-image {
+    flex: 1;
+}
+
+.intro-image img {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+.biography, .words, .honor, .statue, .gallery {
+    text-align: center;
+}
+
+.biography h2, .words h2, .honor h2, .statue h2, .gallery h2 {
+    color: #db13d1;
+    margin-bottom: 1rem;
+}
+
+.words blockquote {
+    text-align: center;
+    font-size: 1.2rem;
+    font-style: italic;
+    line-height: 1.8;
+}
+
+.gallery .images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.gallery img {
+    width: 30%;
+    max-width: 300px;
+}
+
+footer {
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer p {
+    margin: 0;
+}
